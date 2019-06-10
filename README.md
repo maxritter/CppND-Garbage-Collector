@@ -1,8 +1,17 @@
 # CppND-Garbage-Collector
-The final project for this Memory Management course is to implement your own version of a smart pointer. You can think of this as implementing your own garbage collector, to use a concept from other programming languages. Building this project will help you understand both how to work with pointers and references, and also why smart pointers are so important to modern C++ programming. Complete the implementations and verify that your implementation does not have any memory leaks!
+In this project, a garbage collector is implemented in C++, similar to the functionality of a smart pointer.
 
-## Project TODO List:
-- Complete `Pointer` constructor
-- Complete `Pointer` `operator==`
-- Complete `Pointer` destructor
-- Complete `PtrDetails` class
+The garbage collector works by creating a new pointer type that provides built-in support for garbage collection based on reference counting. The garbage collector is single-threaded, which means that it is quite portable and does not rely upon (or make assumptions about) the execution environment.
+
+
+
+## Compilation
+
+`g++ -o main.cpp -std=c++1y -Wall` 
+
+
+
+## Execution
+
+`./a.out` 
+
