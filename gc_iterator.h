@@ -9,9 +9,6 @@ class out_of_range_exc final : public std::exception
 {
 public:
 	out_of_range_exc() : exception() {}
-	explicit out_of_range_exc(const char* const& msg)
-		: exception(msg)
-	{ }
 };
 
 /* An iterator-like class for cycling through arrays

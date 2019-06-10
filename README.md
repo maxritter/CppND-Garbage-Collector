@@ -7,11 +7,11 @@ The garbage collector works by creating a new pointer type that provides built-i
 
 ## Compilation
 
-`g++ -o main.cpp -std=c++1y -Wall` 
+`g++ -o gc.out main.cpp -std=c++1y -Wall` 
 
 
 
 ## Execution
 
-`./a.out` 
+`./gc.out` 
 
